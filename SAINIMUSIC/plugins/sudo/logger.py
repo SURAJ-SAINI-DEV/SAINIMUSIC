@@ -20,4 +20,5 @@ async def logger(client, message, _):
         await add_off(2)
         await message.reply_text(_["log_3"])
     else:
-        await message.reply_text(usage).
+        await message.reply_text(usage)
+    
