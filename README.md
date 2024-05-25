@@ -1,10 +1,10 @@
-# SAINIMUSIC
+
 <h2 align="center">
     ──「 SURAJ ダ SIR 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/175d130502c4dbd119763.jpg">
+  <img src="">
 </p>
 <p align="center">
   <img src="https://telegra.ph/file/58335347fa22459ae6781.jpg">
