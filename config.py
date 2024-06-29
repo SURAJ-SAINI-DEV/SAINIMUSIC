@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("12380656"))
+API_HASH = getenv("d927c13beaaf5110f25c505b7c071273")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7468224439:AAEGXiQeoK_iRjHwFFIu1In574UDV1sLGvs")
 BOT_USERNAME = getenv("BOT_USERNAME" , "@SAINI_MUSICBOT")
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://Suraj43:Suraj43@suraj.0bg0zuc.mongodb.net/?retryWrites=true&w=majority",)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 699999999999990))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002032619938", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("6790503262", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQAOIQqGis1V4DWQjNCrDiuwjZhtdhPGzhcH_VrnHwu2byShQJH-2NBi-UU8tOhHUH_uZSkuMnq8BpbDVAc1InZwCtuL8hyky2XiH4l7IMtdLFk8MZI1tPaywYlfbZ5VkQTls7QL-PhNXZ0tVK1FyhH6AZF0F7ogQP7369x_81pvpvCfzLoPKCN7cLRyKMhiBIR7fCWrBWd8ZOlWpr1q98VZ0LV9H6UD8eInn_ZPVMyiMNn2mb2vXZEeSdkGX_V1Imxzf5c-8onEAoV0dmXvn7qb06AetPYg5-a_tHGu3rvE8te78HyZ4C-CJiaYgJBxQKAe0ul-rcQXPB4DXvIh57bZAAAAAXitP3AA",)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -113,4 +113,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
