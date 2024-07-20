@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("12380656"))
-API_HASH = getenv("d927c13beaaf5110f25c505b7c071273")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7157195596:AAGJ_EfyPnqczbt9CbE-QM_m47ivqBEZKEg")
+BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_USERNAME = getenv("BOT_USERNAME" , "deepika91_bot")
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Suraj43:Suraj43@suraj.0bg0zuc.mongodb.net/?retryWrites=true&w=majority", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 100000000000000000000000000000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1002032619938",))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7292803032))
+OWNER_ID = int(getenv("OWNER_ID", 1356469075))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("BQBAnrv8zweD9G_ZH_GwdDD1mrtp3UAEVjNJ_o3sBtrERXhZT1kQwU60OjsSARq2tnMPABJ4m7-jPC4_o4bFt1VklrFu1j60_N4XBP0uO7s8qloFn61nqo6bo75r2-xoF5n8RdMs4i3uYdGPatYlY5AOWnpJh-psSZPUHkIWzRXFBsHW7ID2J9Dl8L65nR99P9ImJt_N8dZG4q5xeRTIJexyqHarD-kljwavPpeRdsBD0P0FHoBOvnBj2SvfKzGsLoPxvu6HBNDm2LfuRGFS15Fv8yd8RYVkOqLZbbqe-OpfjJgEiJSpCuS0oLk39rtu1BsIwnqKJC19Htp3fUOY66RZAAAAAbfXmSgA",)
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
